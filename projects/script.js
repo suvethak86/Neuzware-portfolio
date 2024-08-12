@@ -20,8 +20,8 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Projects | Portfolio Suvetha";
-            $("#favicon").attr("href", "/assets/images/industrial-designer-digital-art.jpg");
+            document.title = "Projects | Portfolio Jigar Sable";
+            $("#favicon").attr("href", "/assets/images/favicon.png");
         }
         else {
             document.title = "Come Back To Portfolio";
@@ -105,6 +105,8 @@ getProjects().then(data => {
 })
 // fetch projects end
 
+
+// End of Tawk.to Live Chat
 
 // disable developer mode
 document.onkeydown = function (e) {
